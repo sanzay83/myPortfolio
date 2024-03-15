@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>NestCom Mankato</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href=".styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        iframe {
+        display: block;       /* iframes are inline by default */
+        background: none;
+        border: none;         /* Reset default border */
+        height: 84vh;        /* Viewport-relative units */
+        width: 96vw;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 17px;
+    }
+
+    .container {
+      position: relative;
+      width:inherit;
+      margin: 0px;
+    }
+
+    .container img {
+        vertical-align: center;
+            }
+
+    .container .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 0px;
+    }
+    </style>
+</head>
+	
+<body>
+    <div class="navbar">
+    <a class="current" href="index.html">HOME</a>
+    <a href="pages/updates.html" target="main">NEWS UPDATES</a>
+    <a href="pages/photoes.html" target="main">PHOTOES</a>
+    <a href="pages/contact.html" target="main">CONTACT</a>
+    </div>
+    <iframe src="pages/home.html" name="main"></iframe>
+    <div class="navbar">
+      <p>&copy; Copyright 2019 NestCom Mankato.</p>
+    </div>
+</body>
+</html>

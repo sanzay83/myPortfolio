@@ -1,0 +1,267 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+.container{
+    margin: auto;
+    overflow: hidden;
+    position: relative;  
+}
+
+.imgtext{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left{
+    padding: 0px;
+    float: left;
+}
+.right{
+    padding: 0px;
+    float: right;
+}
+.button_1{
+    background: white;
+    color:black;
+    padding:5px;
+    border-radius: 5px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration:none;
+}
+.button_1:hover{
+    background: black;
+    color:white;
+}
+.button_2{
+    margin:3px;
+    background: green;
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration:none;
+}
+.button_2:hover{
+    background: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+loginfont{
+    padding:0;
+    margin:0;
+    font-size:18px;
+    color:white;
+}
+font18{
+    font-size:22px;
+    background:black;
+    color: white;
+    text-align: center;
+    width:100%;
+}
+/*----------------------------------------------------------------------*/
+/*-------------HEADER CSS-----------------------------------------------*/
+/*----------------------------------------------------------------------*/
+
+header{
+    padding: 20px;
+    background: white;
+    color: purple;
+    border-bottom: black 2px solid;
+}
+
+header img{
+    height: auto;
+    width: 40px;
+    float: left;
+}
+header text{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+header sub{
+    font-size: 20px;
+}
+/*----------------------------------------------------------------------*/
+/*-------------MENU CSS-------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+menu{
+    margin: 0;
+    background: rebeccapurple;
+    padding: 10px;
+    border-bottom: black 2px solid;
+}
+
+menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+menu li{
+    display: inline;
+    padding: 10px 60px;
+    text-align: center;
+}
+menu a:hover{
+    font-weight: bold;
+    color:gold;
+}
+/*----------------------------------------------------------------------*/
+/*-------------SHOWCASE CSS---------------------------------------------*/
+/*----------------------------------------------------------------------*/
+#showcase{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom:-5px;
+}
+#showcase img{
+    width: 100%;
+}
+#showcase text{
+    width: 100%;
+    position: relative;
+    margin-top: 40%;
+}
+#showcase text h1{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+/*----------------------------------------------------------------------*/
+/*-------------BOXES CSS------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+#boxes{
+    margin-top:5px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 22%;
+    min-width: 150px;
+    height: 300px;
+    padding-left:5px;
+}
+#boxes .box img{
+    width: 40px;
+}
+#boxes .box h1{
+    font-size: 21px;
+    color: purple;
+}
+#boxes .box h3{
+    color: purple;
+}
+/*----------------------------------------------------------------------*/
+/*-------------FOOTER CSS-----------------------------------------------*/
+/*----------------------------------------------------------------------*/
+footer{
+    font-size: 18px;
+    padding: 1px;
+    margin-top: 0px;
+    color: gold;
+    background-color: brown;
+    text-align: center;
+}
+/*----------------------------------------------------------------------*/
+/*-------------LOGIN PAGE CSS-------------------------------------------*/
+/*----------------------------------------------------------------------*/
+.logincontainer{
+    text-align: center;
+    width: 100%; 
+}
+.logincontainer img{
+    text-align: center;
+    width: 250px;
+    border-radius: 50%;
+}
+.logincontainer h1{
+    text-align: center;
+    color: purple;
+    margin: 0px;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: mintcream;
+}
+
+label{
+    font-size: 20px;
+    color: purple;
+}
+input{
+    width: 300px;
+    height: 25px;
+}
+#ckbox {
+    width: 30px;
+}
+
+button{
+    background-color: dimgrey;
+    color: white;
+    height: 30px;
+    width: 310px;
+}
+
+/*----------------------------------------------------------------------*/
+/*-------------TABLE DESIGN CSS ----------------------------------------*/
+/*----------------------------------------------------------------------*/
+.tabledesign{
+    border:1px solid black;
+    width:100%;
+    text-align:center;
+}
+
+.tabledesign tr:nth-child(even){
+    background: grey;
+}
+
+/*----------------------------------------------------------------------*/
+/*-------------ADJUSTMENT FOR SMALLER SCREEN----------------------------*/
+/*----------------------------------------------------------------------*/
+
+@media only screen and (max-width:700px){
+    .imgtext{
+    font-size: 18px;
+    }
+    menu a{
+    font-size: 15px;
+    }
+    header text{
+    font-size: 25px;
+    }
+    header sub{
+    font-size: 16px;
+    }
+    #newsletter h1{
+    font-size: 15px;
+    }
+    #newsletter form input[type="text"]{
+    width: 120px;
+    }
+}

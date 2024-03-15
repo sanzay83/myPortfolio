@@ -1,0 +1,168 @@
+/* type selectors */
+html {
+	background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);	
+	background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);	
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 90%;
+	background-color: none;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 1px solid black;
+}
+
+a {
+	font-weight: bold;
+    font-size: 14px;
+}
+a:link, a:visited { color: #931420; }
+a:hover, a:focus { color: black; }
+
+abc {
+    margin: 0.27%;
+    padding: 0px 9% 5px 9%;
+    display:inherit;
+    background-color: aqua;
+    text-decoration: none;
+}
+p {
+	font-size: 95%;
+	padding: .25em 0;
+}
+em { font-weight: bold; }
+
+/* the styles for the header */
+header { 
+	padding-bottom: 2em;
+}
+header h2 {
+	font-size: 300%;
+    color: red;
+    text-shadow: 4px 5px 6px grey;
+    margin-left: 120px;
+	margin-bottom: .25em;
+    text-align: center;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    margin-left: 120px;
+    text-align: center;
+}
+header h4 {
+    text-shadow: 4px 5px 6px grey;
+    font-style: italic;
+    padding: 3px;
+    font-size: 150%;
+}
+header h5 {
+    padding: 2px;
+    font-size: 110%;
+}
+header img { 
+    padding: 0px;
+	float: left;
+	margin-left: 20px;
+    margin-top: 0px;
+}
+
+upara {
+    padding: 0px;
+    border: 10px;
+    border-color: black;
+}
+upara img{
+    height: 40px;
+    width: 40px;
+    float:left;
+    padding: 1px;
+}
+upara h1{
+    margin-left:inherit;
+    font-size: 125%;
+    font-style: oblique;
+    color: brown;
+}
+upara udate{
+    font-size: 12px;
+    font-style: italic;
+}
+abt{
+    padding-bottom: 2em;
+}
+abt h1{
+    font-size: 150%;
+    font-stretch: expanded;
+    font-style: oblique;
+    text-shadow: 4px 5px 6px grey;
+	margin-bottom: .25em;
+    padding: 20px 100px 10px 0px;
+}
+abt p{
+    font-size: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	border-top: 2px solid #f2972e;
+	padding-top: .7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 23%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

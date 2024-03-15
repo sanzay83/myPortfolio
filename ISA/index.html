@@ -1,0 +1,128 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Welcome to ISA</title>
+	<link rel="icon" href="images/logo1.png">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css">
+    <script>
+        var imageSources = ["images/gallary/4.jpg", "images/gallary/5.jpg", "images/gallary/6.jpg"]
+        var index = 0;
+        setInterval (function(){
+            if (index === imageSources.length) {
+                index = 0;
+            }
+        document.getElementById("image").src = imageSources[index];
+        index++;
+        } , 4000);
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="titlee">
+                <img src="images/logo.png">
+                <h1>International Student Association</h1>
+            </div>
+        </div>
+    </header>
+    <menu>
+    <div class="container">
+        <ul>                    
+            <a href="index.html">Home</a>
+            <a href="pages/gallery.html">Gallery</a>
+            <a href="pages/board.html">ISA Board</a>
+            <a href="pages/RSO.html">RSO Board</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/compt.html">RSOweb</a>
+            
+        </ul>     
+    </div>
+    </menu>
+    <div class="container">
+        <img id="image" src="images/gallary/4.JPG" style="width:100%;">
+    </div>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter</h1>
+            <form action="pages/subscribe.php">
+            <input type="email" placeholder="Enter email..." name="email">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <div class="container">
+        <div class="messagesection">
+            <headt><b>A Message from President of International Student Association<br></b></headt><br>
+            <img src="images/bale.jpg">
+            <p>On Behalf of the board of International Student Association it is my pleasure to say welcome Mavericks. My fellow officers, the Executive board, All the Recognized Student Organization presidents and I hope to show how ISA can make difference in your academic and professional experiences every day. ISA encourages and facilitates connections across cultures and provides opportunities for the campus and community to participate in engaging social and cultural events.<br><br>
+                    
+                I encourage new and returning students to stay connected and up-to-date regarding University and community activities through Engage, our Facebook site and via email.<br><br>
+                    
+                Additionally, I would like to request you to practice our University’s commitment to equality, civility, and diversity. It is our expectation that all members of the University and local community will behave in a respectful manner and treat others with courtesy and mutual respect.<br><br>
+                This will be an exciting academic year, remember Horns Up! and always aim high and continue to reach the goals you all set. I wish each of you a successful academic year.<br><br>
+                Sincerely,<br>
+                <b>Sanjaya Balami<br>
+                President,<br>
+                International Student Association.</b>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="eventcon">
+            <h1>Events by ISA</h1>
+            <img src="images/event/com.jpg">
+            <img src="images/event/gamenight.gif">
+            <img src="images/event/isacricket.jpg">
+            </div>
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <a href="https://mankato.mnsu.edu"><img height="40%" src="https://mankato.mnsu.edu/globalassets/logo-purple.png"></a>
+                
+                <p>Mankato, MN 56001<br> 1-800-722-0544</p>
+            </div>
+            <div class="box">
+                <center>
+                    <a href="http://www.mnsu.edu/shs/"><h1><font face="accolade">Student Health Services</font></h1></a>    Medical Clinic<br>
+                        21 Carkoski Commons<br>
+                        Phone: 507-389-6276<br>
+                        Fax: 507-389-5787<br><br>
+                        Health Education<br>
+                        100 Carkoski Commons<br>
+                        Phone: 507-389-5689</center>
+            </div>
+            <div class="box">
+                <a href="https://mankato.mnsu.edu/academics/global-education/centers-of-global-education/international-student-services/"><h1><font face="accolade">Kearney International Center (KIC)</font></h1></a>
+                Minnesota State University, Mankato<br>
+                250 Centennial Student Union<br>
+                Mankato, MN 56001 USA<br>
+                Phone: 1-507-389-1281<br>
+                Email:international@mnsu.edu
+            </div>
+            <div class="box">
+              <a href="https://secure2.mnsu.edu/bustracking/"><h1><font face="accolade">Mankato Area Bus Tracking</font></h1></a>
+                Bus Tracking - 15 second delay on bus location - Routes showing are active buses on road only.
+                <img width="100%" src="https://www.mnsu.edu/parking/ads/2018/Mankato_Area_Bus.JPG">
+            </div>
+            <div class="box">
+              <h1><font face="accolade">Contacts Us</font></h1>
+                International Student Association<br>
+                CSU 264 <br>
+                Phone: 507-389-.....<br>
+                email: isa@mnsu.edu
+                </div>
+        </div>
+    </section>
+    <div id = "foot">
+        <footer><p>International Student Association, &copy; 2019</p>
+        <a href="https://www.facebook.com/Isamnsu/"><img src="images/icons/facebook.jpg"></a>
+        <img src="images/icons/insta.jpg">
+        <img src="images/icons/youtube.jpg">
+    </footer>
+    </div>
+</body>
+</html>

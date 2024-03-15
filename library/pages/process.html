@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Room book</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+        $( "#datepicker" ).datepicker({minDate: 0, maxDate: 6});
+    } );
+    </script>
+</head>
+<body>
+    <form action="result.php" method="post">
+        <H2>View available Rooms</H2><br>
+        <label><b>Date:</b></label><br>
+        <input type="text" placeholder="Select Date" name="date" id="datepicker" required><br>
+        <label><b>Time:</b></label>
+        <select name="time" required>
+                <option value="8:00:00">8am</option>
+                <option value="10:00:00">10am</option>
+                <option value="12:00:00">12pm</option>
+                <option value="14:00:00">2pm</option>
+                <option value="16:00:00">4pm</option>
+                <option value="18:00:00">6pm</option>
+                <option value="20:00:00">8pm</option>
+                <option value="20:00:00">10pm</option>
+            </select><br>
+        <button type="submit" value="Submit">Check</button>
+    </form>
+</body>
+</html>
