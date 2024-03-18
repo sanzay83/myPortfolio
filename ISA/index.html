@@ -12,14 +12,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.png" />
-          International Student Association
+        <a class="navbar-brand">
+          <img class="logo-size" src="images/logo.png" />
+          <div class="title-width">International Student Association</div>
         </a>
       </div>
     </nav>
@@ -80,7 +80,7 @@
 
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand"><h3>Subscribe to our newsletter</h3></a>
+        <a class="navbar-brand"><h5>Subscribe to our newsletter</h5></a>
         <form class="d-flex" action="pages/subscribe.php">
           <input
             class="form-control me-2"
@@ -141,13 +141,13 @@
 
     <div class="container text-center">
       <div class="row row-cols-3">
-        <div class="col event-img">
+        <div class="col row-self-img event-img">
           <img src="images/event/com.jpg" />
         </div>
-        <div class="col event-img">
+        <div class="col row-self-img event-img">
           <img src="images/event/gamenight.gif" />
         </div>
-        <div class="col event-img">
+        <div class="col row-self-img event-img">
           <img src="images/event/isacricket.jpg" />
         </div>
       </div>
@@ -155,7 +155,7 @@
 
     <div class="container text-center card-background">
       <div class="row row-cols-4">
-        <div class="col">
+        <div class="col row-self">
           <a href="https://mankato.mnsu.edu">
             <img
               height="40%"
@@ -167,7 +167,7 @@
           </p>
         </div>
 
-        <div class="col">
+        <div class="col row-self">
           <a
             href="https://mankato.mnsu.edu/academics/global-education/centers-of-global-education/international-student-services/"
           >
@@ -177,10 +177,10 @@
           250 Centennial Student Union<br />
           Mankato, MN 56001 USA<br />
           Phone: 1-507-389-1281<br />
-          Email:international@mnsu.edu
+          Email:<br />international@mnsu.edu
         </div>
 
-        <div class="col">
+        <div class="col row-self">
           <a href="https://secure2.mnsu.edu/bustracking/"
             ><h5 class="card-title">Mankato Area Bus Tracking</h5></a
           >
@@ -188,7 +188,7 @@
           active buses on road only.
         </div>
 
-        <div class="col">
+        <div class="col row-self">
           <h5 class="card-title">Contacts Us</h5>
           International Student Association<br />
           CSU 264 <br />
