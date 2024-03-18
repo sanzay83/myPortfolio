@@ -1,301 +1,65 @@
-body{
-    font-family: Arial, sans-serif;
-    font-size:15px;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    background-color: white;
+body {
+  border: 2px solid rgb(189, 189, 189);
+  margin: 0 15%;
+}
+.nav-selfmade {
+  background-color: #6a3773;
 }
 
-.container{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+.nav-selfmade a {
+  color: white;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+.message-style-head {
+  background: gold;
+  width: 100%;
+  color: #6a3773;
+  font-size: 30px;
+  text-align: center;
 }
 
-uli{
-    list-style-type:none;
-    padding:0;
-    margin:0;
-}
-uli li{
-    padding:8px 16px;
-    border-bottom:1px solid #ddd;
-}
-uli li:last-child{
-    border-bottom: none;
+.event-img img {
+  height: 400px;
 }
 
-.button_1{
-    height: 38px;
-    width: 90px;
-    background: red;
-    border: 0;
-    color:white;
-    float: right;
+.card-background {
+  margin-top: 10px;
+  background: linear-gradient(45deg, white, grey, white, grey);
 }
 
-.dark{
-    padding: 15px;
-    background: #35424a;
-    color: gold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.message-style-foot {
+  background: #6a3773;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: -10px;
 }
 
-header{
-    background: white;
-    color: purple;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    min-height: 0px;
-    border-bottom: #e8491d 5px solid;
+.icon-right {
+  float: right;
 }
 
-header #titlee img{
-    margin: 0;
-    height: auto;
-    width: 150px;
-    float: left;
-    padding-left: 30px;
-}
-header #titlee h1{
-    padding-top: 1%;
-    margin: 0;
-    font-size: 35px;
+.icon-right a {
+  background-color: white;
+  font-weight: 600;
 }
 
-menu{
-    padding: 0px;
-    margin: 0px;
-    background-color: #6A3773;
-    overflow: hidden;
-    width: 100%;
-}
-menu a{
-    float: left;
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 19px;
-    padding: 10px 10px;
-}
-menu a:hover{
-    background: gold;
-    color: purple;  
-}
-#newsletter{
-    margin-top: -10px;
-    padding: 0px;
-    color: white;
-    background: #6A3773;
-}
-#newsletter h1{
-    padding-left: 30px; 
-    float: left;
-}
-#newsletter form{
-    float: right;
-    margin-top: 15px;
-}
-#newsletter input[type="email"]{
-    height: 25px;
-    width: 250px;
-}
 /**messagep **/
-.messagesection{
-    margin: 0px;
-    padding: 0px;
+.messagesection img {
+  margin-top: 10px;
+  float: right;
+  width: 25%;
+  border-radius: 900px;
 }
-.messagesection img{
-    margin-top: 10px;
-    float: right;
-    width: 25%;
-    border-radius: 900px;
-}
-.messagesection headt{
-    background: gold;
-    float: right;
-    width: 100%;
-    color: #6A3773;
-    font-size:23px;
-    text-align: center;
-    
-}
-.messagesection p{
-    margin-top: 20px;
-    margin-left: 20px;
-    color: purple;
-    font-size: 20px;
+.messagesection p {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: purple;
+  font-size: 20px;
 }
 
-
-#boxes{
-    margin: 0px;
-    background: linear-gradient(45deg, white, grey, white,grey);
-    padding: 20px 0px;
-}
-#boxes .box{
-    float: left;
-    text-align: center;
-    width: 18%;
-    min-width: 200px;
-    height: 260px;
-    color: purple;
-    padding: 0px 0.5%;
-}
-#boxes .box h1{
-    margin: 0px;
-    padding: 0px;
-    font-size: 18px;
-}
-#boxes .box h2{
-    margin: -15px;
-    padding: 0px;
-    font-size: 19px;
-}
-
-aside #sidebar{
-    float:right;
-    width: 35%;
-    margin-top: 10px;
-}
-
-article #main-col{
-    float:left;
-    width: 60%;
-}
-article #main-col ul{
-    list-style-type: circle;
-}
-
-/**events**/
-.eventcon{
-    border: 1px black solid;
-}
-.eventcon img{
-    height: 400px;
-}
-.eventcon h1{
-    font-size: 22px;
-    border:1px black solid;
-    background: gold;
-    margin: 0px;
-}
-/*---------------------------------------------------------------------*/
-/*-------------------Board Tab CCS-------------------------------------*/
-/*---------------------------------------------------------------------*/
-boardmainpic{
-    margin: 0px;
-    padding: 0px;
-}
-boardmainpic img{
-    width: 100%;
-}
-boardcontent{
-    margin: 0px;
-}
-
-boardcontent .box{
-    width: 415px;
-    float: left;
-    border: black 4px solid;
-    border-bottom-right-radius: 50px;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    padding:1%;
-    color: purple;
-    background: white;
-    font-size: 13px;
-    height: 150px;
-}
-boardcontent .box img{
-    width: 140px;
-    float: left;
-    padding: 5px;
-    
-}
-boardcontent .box p{
-    float: left;
-    padding: 5px;
-    margin: 0px;
-    font-size: 13px;
-}
-
-/*---------------------------------------------------------------------*/
-/*-------------------Mobile Device Adjustment--------------------------*/
-/*---------------------------------------------------------------------*/
-#foot{
-}
-
-footer{
-    margin: 0;
-    padding: 20px;
-    font-size: 17px;
-    background: #6A3773;
-    color: white;
-    text-align: left;
-}
-footer p{
-    margin: 0px;
-    font-size: 20px;
-    width: 80%;
-    float: left;
-}
-footer img{
-    border-radius: 8px;
-    margin: 2px;    
-}
-
-/*---------------------------------------------------------------------*/
-/*-------------------Mobile Device Adjustment--------------------------*/
-/*---------------------------------------------------------------------*/
-
-@media only screen and (max-width:700px){
-    header #titlee img{
-    width: 70px;
-    }
-    
-    header #titlee h1{
-    font-size: 18px;
-    }
-    
-    menu a{
-    font-size: 15px;
-    }
-    
-    #newsletter h1{
-    font-size: 18px;
-    }
-    
-    #newsletter input[type="email"]{
-    width: 100px;
-    }
-    
-    .messagesection headt{
-    font-size:18px;
-    }
-    
-    .messagesection p{
-    font-size: 16px;
-    }
-    .eventcon h1{
-    font-size: 18px;
-    }
-    footer{
-        font-size: 15px;
-    }
-    footer p{
-        font-size: 15px;
-    }
-    footer img{
-    float:inherit;    
-}
+boardmainpic img {
+  width: 100%;
 }
